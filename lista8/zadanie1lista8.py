@@ -10,7 +10,7 @@ def program():
             print("Klucz nie mieści się w zakresie!")
             n = int(input("Podaj klucz szyfrowania (przesunięcia) w zakresie 1-10: "))
         cez.szyfrowanie(szyfr, n) #wywołanie funkcji z modułu
-        f.close() #zamyka plik, aby ten ni zajmował pamięć oraz nie był przyczyną jakichkolwiek możliwych przyszłych błędów
+        f.close() #zamyka plik
     except FileNotFoundError: #jeśli plik nie znaleziony, to wyświetla się komunikat oraz program zaczyna się od nowa
         print("Plik nie znaleziono!")    
         program()
