@@ -1,0 +1,11 @@
+import math
+print("Dzielenie bez reszty zawsze zaookrągla liczbę do najbliższej liczby całkowitej z lewej strony na osi liczbowej, np: ")
+print("dzielenie czterech liczb: 5/2, 5.9/2, -5/2, -5.9/2")
+print("Wynik z resztą: ", 5/2, "\t", 5.9/2, "\t", -5/2, "\t", -5.9/2)
+print("Wynik bez reszty: ", 5//2, "\t", 5.9//2, "\t", -5//2, "\t", -5.9//2)
+print("----------------------------------------------------------------------")
+print("Funkcja 'round' zaokrągla liczbę zmiennoprzecinkową do podanej w drugim argumencie funkcji ilości miejsc po przecinku, np:")
+print("Zaokrąglimy liczbę 4.4563782 do dwoch miejsc po przecinku używając 'round(4.4563782, 2)':\n", round(4.4563782, 2))
+print("----------------------------------------------------------------------")
+print("Funkcja 'math.floor(x)' zaokrągla podaną liczbę zmiennoprzecinkową w dół do liczby całkowitej (jak wynik w dzieleniu bez reszty), np:")
+print("Liczba 7.56; -9.38; Pi: \n", math.floor(7.56), "\t", math.floor(-9.38), "\t", math.floor(math.pi))
